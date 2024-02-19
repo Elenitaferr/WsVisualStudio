@@ -1,0 +1,44 @@
+
+.body {
+    background-image: url(mar-5165161_1280.jpg);
+    margin: 100px;
+    background-color: coral;
+}
+.seccion1{
+    color: aliceblue;
+}
+.seccion3{
+    color: darksalmon!important;
+}
+
+#p1 {
+    width: 60%;
+}
+#p2{
+    width: 500px;
+}
+#p3{
+    width: 60%;
+
+}
+#p4{
+    width: 500px;
+}
+#h1{
+    font-size: 10px;
+}
+#h2{
+    font-size: 2em;
+}
+#fotoCabra{
+    width: 60%;
+}
+#fotoGalicia{
+    width: 60%;
+}
+#apreton{
+    width: 500px;
+}
+#paella{
+    width: 500px;
+}
