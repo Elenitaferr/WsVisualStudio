@@ -1,0 +1,12 @@
+.Listafoto{
+    list-style-image:url("frutas.png");
+}
+.ListaOrdenada{
+    list-style-type: upper-alpha;
+}
+.ListaDesordenada{
+    list-style-type: square;
+}
+ol{
+    list-style-type: lower-roman;
+}
