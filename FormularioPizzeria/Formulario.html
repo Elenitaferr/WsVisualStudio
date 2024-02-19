@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>PIDE TU PIZZA</h1>
+    <form action="procesarPeticion.jsp" method="post">
+     <!-- Al cambiar "post" y "get" cambia el url de la página, con "get" aparecerá toda la información 
+        que hemos introducido en el formulario, en cambio con "post" parece mucgo más seguro-->
+        <fieldset>
+            <legend>Información del cliente</legend>
+            <label for = "nombre">Nombre completo:</label>
+            <input id="nombre" type="text" name="nombre" required/>
+            <br/>
+            <br/>
+            <label for="pass">Password: </label>
+            <input id="pass" type="password" name="pass" required />
+            <br/>
+            <br/>
+            <label for="direccion">Dirección completa:</label>
+            <input id="direccion" type="text" name="direccion" required/>
+            <br/>
+            <br/>
+            <label for="telefono">Número de teléfono:</label>
+            <input id="telefono" type="number" name="telefono" required/>
+            <br/>
+            <br/>
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email"/>
+            <br/>
+            <br/>
+            <label for="edad">Edad:</label>
+            <input id="edad" type="number" name="edad"required/>
+            <br/>
+            <br/>
+            <legend>Cómo quieres la pizza</legend>
+            <label for="size">Tamaño de la pizza</label>
+            <br/>
+            <input type="radio" name="size" value="G"/> Grande (16 pulgadas)<br />
+            <input type="radio" name="size" value="M"/> Mediana ( 12 pulgadas)<br />
+            <input type="radio" name="size" value="P"/> Pequeña (8 pulgadas)<br />
+            <br/>
+            <label for="masa">Masa de la pizza</label>
+            <br/>
+            <input type="radio" name="masa" value="G"/> Gorda<br />
+            <input type="radio" name="masa" value="M"/> Mediana<br />
+            <input type="radio" name="masa" value="F"/> Fina<br />
+            <br/>
+            <label for="ingredientes">Ingredientes de la pizza</label>
+            <br/>
+            <input type="checkbox" name="ingredientes" value="P"/>Peperoni <br />
+            <input type="checkbox" name="ingredientes" value="JV"/>Judías Verdes <br />
+            <input type="checkbox" name="ingredientes" value="J"/> Jamón<br />
+            <input type="checkbox" name="ingredientes" value="A"/>Alcaparras<br />
+            <input type="checkbox" name="ingredientes" value="Ac"/>Aceitunas<br />
+            <input type="checkbox" name="ingredientes" value="C"/>Cebolla<br />
+            <input type="checkbox" name="ingredientes" value="S"/>Salchicha<br />
+            <input type="checkbox" name="ingredientes" value="Pi"/>Piña<br />
+            <br/>
+            <label for="salsa">Salsa de la pizza</label>
+            <br/>
+            <input type="radio" name="salsa" value="T"/>Tomate<br />
+            <input type="radio" name="salsa" value="B"/>Barbacoa<br />
+            <input type="radio" name="salsa" value="P"/>Pesto<br />
+            <input type="radio" name="salsa" value="SS"/>Sin salsa<br />
+            <br/>
+            <label for="observaciones">Observaciones de la pizza: </label>
+            <br />	
+            <textarea style="resize: none;" rows="5" cols="80" name="observaciones"></textarea>
+            <br/>
+            <label for="metodo_pago">Escoja el método de pago: </label>
+            <select name="metodo_pago">
+                <option value="E">Efectivo</option>
+                <option value="T" selected>Tarjeta de crédito</option>
+                <option value="P">PayPal</option>
+            </select>
+            <br />
+            <br/>
+            <a href="terminos.html">Términos y condiciones</a>
+            <br/>
+            <label for="terminos">¿Acepta los terminos de uso? </label>
+            <br/>	
+            He leido y acepto los terminos de uso <input type="checkbox" name="terminos" value="Y" />
+            <br/>	
+            <br/>	
+            <input type="submit" value="Enviar"/>
+            <input type="reset" value="Resetear formulario"/>
+        </fieldset>
+    
+</body>
+</html>
