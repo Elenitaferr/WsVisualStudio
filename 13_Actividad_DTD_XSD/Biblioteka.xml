@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation= "Biblioteca1.xsd">
+<nombre>María Zambrano</nombre>
+<seccion>
+    <libro>
+        <titulo>Un faro en el fin del mundo</titulo>
+        <autor>Gerard Guix</autor>
+        <resumen>Max lo tiene clarísimo. Con catorce años acaba de ver cómo su vida da un giro inesperado</resumen>
+        <editorial>
+            <nombre>Elastik Books</nombre>
+            <ciudad>París</ciudad>
+        </editorial>
+    </libro>
+    <libro>
+        <titulo>El pintor de batallas</titulo>
+        <autor>Arturo Pérez Reverte</autor>
+        <anio>2015</anio>
+        <resumen>El paisaje intemporal de la batalla.</resumen>
+        <editorial>
+            <nombre>DeBolsillo</nombre>
+            <ciudad>Madrid</ciudad>
+        </editorial>
+    </libro>
+</seccion>
+<seccion>
+    <libro>
+        <titulo>El libro de las tierras vírgenes</titulo>
+        <autor>Rudyard Kipling</autor>
+        <anio>1894</anio>
+        <resumen>conjugan de manera admirable su conocimiento de la grandeza y diversidad de la India.</resumen>
+        <editorial>
+            <nombre>Alianza Editorial</nombre>
+            <ciudad>Londres</ciudad>
+        </editorial>
+    </libro>
+</seccion>
+<seccion>
+    <libro>
+        <titulo>Dune</titulo>
+        <autor>Frank Herbert</autor>
+        <resumen>La historia comienza a más de 10 000 años en el futuro, en nuestra galaxia, en un gran imperio galáctico de estructura feudal.</resumen>
+        <editorial>
+            <codigo>D7TR3</codigo>
+            <nombre>Acervo</nombre>
+            <ciudad>Londres</ciudad>
+        </editorial>
+    </libro>
+    <libro>
+        <titulo>Fahrenheit 451</titulo>
+        <autor>Ray Bradbury</autor>
+        <anio>1953</anio>
+        <resumen>Hace reflexionar sobre los temores de una sociedad futurista la cual atraviesa por una revolución tecnológica y pérdida de conocimientos.</resumen>
+        <editorial>
+            <nombre>Minotauro</nombre>
+            <ciudad>Illinois</ciudad>
+        </editorial>
+    </libro>
+</seccion>
+<!-- Puedes agregar más secciones y libros según sea necesario -->
+</biblioteca>

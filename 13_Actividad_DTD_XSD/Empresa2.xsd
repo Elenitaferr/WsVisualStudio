@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+        <xs:element name="empresa">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="NIF" type="xs:string"/>
+              <xs:element name="espanola" type="xs:boolean"/>
+              <xs:element name="capitalSocial" type="xs:decimal"/>
+              <xs:element name="direccion">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="tipoVia" type="xs:string"/>
+                    <xs:element name="nombreVia" type="xs:string"/>
+                    <xs:element name="codigoPostal" type="xs:string"/>
+                    <xs:element name="pais" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="empleados">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="empleado" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="nombre" type="xs:string"/>
+                          <xs:element name="apellidos" type="xs:string" maxOccurs="unbounded"/>
+                          <xs:element name="DNI" type="xs:string"/>
+                          <xs:element name="extranjero" type="xs:boolean"/>
+                          <xs:element name="fechaNacimiento" type="xs:date"/>
+                          <xs:element name="salario" type="xs:decimal"/>
+                          <xs:element name="direccionEmpleado">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="pais" type="xs:string"/>
+                                <xs:element name="tipoVia" type="xs:string"/>
+                                <xs:element name="nombreVia" type="xs:string"/>
+                                <xs:element name="codigoPostal" type="xs:string"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="estaCasado" type="xs:boolean"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+</xs:schema>

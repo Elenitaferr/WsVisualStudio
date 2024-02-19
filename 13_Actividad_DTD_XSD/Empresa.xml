@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:noNamespaceSchemaLocation="Empresa2.xsd">
+    <nombre>Elena S.L</nombre>
+    <NIF>12345678A</NIF>
+    <espanola>true</espanola>
+    <capitalSocial>100567.124</capitalSocial>
+    <direccion>
+        <tipoVia>Calle</tipoVia>
+        <nombreVia>Bretón de los Herreros</nombreVia>
+        <codigoPostal>28003</codigoPostal>
+        <pais>España</pais>
+    </direccion>
+    <empleados>
+        <empleado>
+            <nombre>Elena</nombre>
+            <apellidos>Fernández</apellidos>
+            <apellidos>Cañizares</apellidos>
+            <DNI>05316967B</DNI>
+            <extranjero>false</extranjero>
+            <fechaNacimiento>1999-05-12</fechaNacimiento>
+            <salario>1400.78</salario>
+            <direccionEmpleado>
+                <pais>España</pais>
+                <tipoVia>Calle</tipoVia>
+                <nombreVia>Ponzano</nombreVia>
+                <codigoPostal>28003</codigoPostal>
+            </direccionEmpleado>
+            <estaCasado>false</estaCasado>
+        </empleado>
+        <empleado>
+            <nombre>Juan</nombre>
+            <apellidos>Pérez</apellidos>
+            <apellidos>Hernandez</apellidos>
+            <apellidos>López</apellidos>
+            <DNI>0695485B</DNI>
+            <extranjero>false</extranjero>
+            <fechaNacimiento>1995-06-02</fechaNacimiento>
+            <salario>1400.78</salario>
+            <direccionEmpleado>
+                <pais>España</pais>
+                <tipoVia>Calle</tipoVia>
+                <nombreVia>Santa Engracia</nombreVia>
+                <codigoPostal>28003</codigoPostal>
+            </direccionEmpleado>
+            <estaCasado>true</estaCasado>
+        </empleado>
+    </empleados>
+</empresa>
