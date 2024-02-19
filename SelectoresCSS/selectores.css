@@ -1,0 +1,27 @@
+.blanco{
+    color: aliceblue;
+    background-color: rgb(151, 147, 147);
+}
+.azul{
+    color: rgb(81, 143, 224);
+    background-color: red;
+}
+header{
+    color: yellow;
+    background-color: black;
+    text-align: center;
+}
+a{
+    color: white;
+    background-color: rgb(56, 56, 172);
+}
+#pEspecial{
+    color: blueviolet;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+#p2Especial, .rojo {
+    color: red;
+    text-align: center;
+    background-color: bisque;
+}
