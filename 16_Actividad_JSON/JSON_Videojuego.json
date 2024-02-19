@@ -1,0 +1,64 @@
+{
+    "videojuego":{
+        "-id": "1",
+        "nombre": "Pokemon amarillo",
+        "nota": 8,
+        "compania":{
+            "-id": "2",
+            "nombre": "Game Freak",
+            "nif": 20103,
+            "direccion":{
+                "via":"calle",
+                "nombre_via": "Setagaya",
+                "codigo_postal": "154-0000",
+                "pais":"Japon"
+            }
+        },
+    "programadores":{
+        "programador":[
+            {
+                "-id": "3",
+                "nombre": "Juan",
+                "Apellidos":"Lopez Moreno",
+                "dni":"05763591J",
+                "fecha_nacimiento":"12-06-1983",
+                "direccion":{
+                    "via":"calle",
+                    "nombre_via": "Santa Engracia",
+                    "codigo_postal":28003,
+                    "pais":"España"
+                }
+            },
+            {
+                "-id": "4",
+                "nombre":"Pepe",
+                "Apellidos":"Fernández Ruiz",
+                "dni":"69358123L",
+                "fecha_nacimiento": "01-07-1972",
+                "direccion":{
+                    "via":"calle",
+                    "nombre_via": "Alvares de Castro",
+                    "codigo_postal": 28016,
+                    "pais":"España"
+                }
+            },
+            {
+                "-id": "5",
+                "nombre": "Sandra",
+                "apellidos": "Cabrera Rueda",
+                "dni": "96832657Y",
+                "fecha_nacimiento": "21-11-1991",
+                "direccion": {
+                    "via": "calle",
+                    "nombre_via": "Donoso Cortes",
+                    "codigo_postal": 28026,
+                    "pais": "España"
+            }
+            }  
+        ]
+    },
+    "codigo_html_videojuego": {
+        "#cdata-section": {}
+    }
+}
+}
