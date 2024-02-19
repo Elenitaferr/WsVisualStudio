@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<videojuego id = "1">
+    <nombre>Pokemon amarillo</nombre>
+    <nota>8</nota>
+    <compania id = "2">
+        <nombre>Game Freak</nombre>
+        <nif>20103</nif>
+        <direccion>
+            <via>calle</via>
+            <nombre_via>Setagaya</nombre_via>
+            <codigo_postal>154-0000</codigo_postal>
+            <pais>Japon</pais>
+        </direccion>
+    </compania>
+    <programadores>
+        <programador id = "3">
+            <nombre>Juan</nombre>
+            <apellidos>Lopez Moreno</apellidos>
+            <dni>05763591J</dni>
+            <fecha_nacimiento>12-06-1983</fecha_nacimiento>
+            <direccion>
+                <via>calle</via>
+                <nombre_via>Santa Engracia</nombre_via>
+                <codigo_postal>28003</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </programador>
+
+        <programador id = "4">
+            <nombre>Pepe</nombre>
+            <apellidos>Fernandez Ruiz</apellidos>
+            <dni>69358123L</dni>
+            <fecha_nacimiento>01-07-1972</fecha_nacimiento>
+            <direccion>
+                <via>calle</via>
+                <nombre_via>Alvarez de Castro</nombre_via>
+                <codigo_postal>28016</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </programador>
+
+        <programador id="5">
+            <nombre>Sandra</nombre>
+            <apellidos>Cabrera Rueda</apellidos>
+            <dni>96832657Y</dni>
+            <fecha_nacimiento>21-11-1991</fecha_nacimiento>
+            <direccion>
+                <via>calle</via>
+                <nombre_via>Donoso Cortes</nombre_via>
+                <codigo_postal>28026</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </programador>
+    </programadores>
+    <codigo_html_videojuego>
+        <![CDATA[ 
+        <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Document</title>
+                <style type="text/css">
+                    h1 {
+                        text-align: center;
+                    }
+                    h2 {
+                        color: red;
+                        text-align: center;
+                    }
+                </style>
+            </head>
+            <body>
+                        <h1>Bienvenido al Videojuego</h1>
+                        <h2>Pokemon Amarillo</h2>
+                        <img src="pokemon.jpg" alt="Imagen del Videojuego">
+
+            </body>
+            </html>
+        ]]>
+    </codigo_html_videojuego>
+</videojuego>
