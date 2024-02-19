@@ -1,0 +1,15 @@
+.parrafo_inline {
+    display: inline;
+    border: 1px solid red;
+}
+
+.parrafo_block {
+    display: block;
+    border: 1px solid blue;
+}
+
+.parrafo_inline_block {
+    display: inline-block;
+    width: 30px;
+    border: 1px solid green;
+}

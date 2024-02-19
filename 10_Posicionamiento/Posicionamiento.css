@@ -1,0 +1,23 @@
+.parrafo_relativo {
+    position: relative;
+    border: 1px solid red;
+}
+
+.parrafo_absoluto {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border: 1px solid blue;
+}
+
+.parrafo_fixed {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border: 1px solid green;
+}
+
+.parrafo_static {
+    position: static;
+    border: 1px solid purple;
+}
