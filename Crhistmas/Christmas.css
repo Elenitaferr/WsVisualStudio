@@ -1,0 +1,60 @@
+.blue {
+    color: blue;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/191814/blue_glitter.gif)
+      repeat;
+  }
+  
+  .pink {
+    color: pink;
+    background: url(https://assets.codepen.io/191814/pink_glitter.gif) repeat;
+  }
+  
+  .gold {
+    color: gold;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/191814/gold_glitter.gif)
+      repeat;
+  }
+  
+  .red {
+    color: red;
+    background: url(https://assets.codepen.io/191814/red-glitter.gif) repeat;
+  }
+  
+  
+  .gold,
+  .pink,
+  .blue,
+  .green,
+  .red 
+  {
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  
+  .text-50 {
+    font-size: 50%;
+  }
+  .text-150 {
+    font-size: 100%;
+  }
+  
+  
+  .glitter-text {
+    font-weight: 600;
+    letter-spacing: 3px;
+  
+    font-size: 7vw;
+    padding: 1.3vh;
+  
+    text-align: center;
+    font-family: "Mountains of Christmas", cursive;
+  }
+  
+  body {
+    background: black;
+    padding-bottom: 40vh;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-fon-smoothing: grayscale;
+  }
