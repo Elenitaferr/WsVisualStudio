@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ciudad codIdentificador="ad-3566" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:noNamespaceSchemaLocation="Ciudad.xsd">
+    <nombreCiudad>Madrid</nombreCiudad>
+    <poblacion>50000</poblacion>
+    <alcalde edad="33">
+        <nombre>Pedro</nombre>
+        <apellido>Lopez Garcia</apellido>
+        <telefono>+34698542369</telefono>
+        <correoElectronico>perdolg@gmail.com</correoElectronico>
+    </alcalde>
+    <funcionarios>
+        <funcionario id="af45d862d4">
+            <nombreApellidos>Marisa Rodriguez Perez</nombreApellidos>
+            <codigoPostal>28003</codigoPostal>
+            <fechaNacimiento>12/05/1999</fechaNacimiento>
+            <contrasenia>M67780975%</contrasenia>
+            <numeroCuenta>ES 1234 1234 1234</numeroCuenta>
+        </funcionario>
+    </funcionarios>
+
+</ciudad>
+    
