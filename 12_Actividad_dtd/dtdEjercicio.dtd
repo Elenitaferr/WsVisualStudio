@@ -1,0 +1,23 @@
+<!ELEMENT videojuego (nombre,nota,compania,programadores)>
+
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT nota (#PCDATA)>
+<!ELEMENT compania (nombre,nif,direccion)>
+<!ELEMENT programadores (programador+)>
+
+<!ELEMENT nif (#PCDATA)>
+<!ELEMENT direccion (via,nombre_via,codigo_postal,pais)>
+<!ELEMENT via (#PCDATA)>
+<!ELEMENT nombre_via (#PCDATA)>
+<!ELEMENT codigo_postal (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT programador (nombre,apellidos,dni,fecha_nacimiento,direccion)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT fecha_nacimiento (#PCDATA)>
+
+
+<!ATTLIST videojuego id CDATA #REQUIRED>
+<!ATTLIST compania id CDATA #REQUIRED>
+<!ATTLIST programador id CDATA #REQUIRED>

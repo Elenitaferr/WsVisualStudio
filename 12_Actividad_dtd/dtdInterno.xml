@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE videojuego [
+    <!ELEMENT videojuego (nombre,nota,compania,programadores)>
+
+
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT nota (#PCDATA)>
+    <!ELEMENT compania (nombre,nif,direccion)>
+    <!ELEMENT programadores (programador+)>
+
+    <!ELEMENT nif (#PCDATA)>
+    <!ELEMENT direccion (via,nombre_via,codigo_postal,pais)>
+    <!ELEMENT via (#PCDATA)>
+    <!ELEMENT nombre_via (#PCDATA)>
+    <!ELEMENT codigo_postal (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT programador (nombre,apellidos,dni,fecha_nacimiento,direccion)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT dni (#PCDATA)>
+    <!ELEMENT fecha_nacimiento (#PCDATA)>
+
+
+    <!ATTLIST videojuego id CDATA #REQUIRED>
+    <!ATTLIST compania id CDATA #REQUIRED>
+    <!ATTLIST programador id CDATA #REQUIRED>
+]>
+
+<videojuego id="1" > 
+    <nombre>Pokemon amarillo</nombre>
+    <nota>8</nota>
+    <compania id = "2">
+        <nombre>Game Freak</nombre>
+        <nif>20.1.0.3</nif>
+        <direccion>
+            <via>calle</via>
+            <nombre_via>Setagaya</nombre_via>
+            <codigo_postal>154-0000</codigo_postal>
+            <pais>Japon</pais>
+        </direccion>
+    </compania>
+    <programadores>
+        <programador id = "3">
+            <nombre>Juan</nombre>
+            <apellidos>Lopez Moreno</apellidos>
+            <dni>05763591J</dni>
+            <fecha_nacimiento>12-06-1983</fecha_nacimiento>
+            <direccion>
+                <via>calle</via>
+                <nombre_via>Santa Engracia</nombre_via>
+                <codigo_postal>28003</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </programador>
+
+        <programador id = "4">
+            <nombre>Pepe</nombre>
+            <apellidos>Fernandez Ruiz</apellidos>
+            <dni>69358123L</dni>
+            <fecha_nacimiento>01-07-1972</fecha_nacimiento>
+            <direccion>
+                <via>calle</via>
+                <nombre_via>Alvarez de Castro</nombre_via>
+                <codigo_postal>28016</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </programador>
+
+        <programador id="5">
+            <nombre>Sandra</nombre>
+            <apellidos>Cabrera Rueda</apellidos>
+            <dni>96832657Y</dni>
+            <fecha_nacimiento>21-11-1991</fecha_nacimiento>
+            <direccion>
+                <via>calle</via>
+                <nombre_via>Donoso Cortes</nombre_via>
+                <codigo_postal>28026</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </programador>
+    </programadores>
+</videojuego>

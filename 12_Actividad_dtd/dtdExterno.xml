@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE videojuego SYSTEM "dtdEjercicio.dtd">
+<videojuego id="1" > 
+    <nombre>Fortnite</nombre>
+    <nota>8</nota>
+    <compania id = "2">
+        <nombre>Epic Games</nombre>
+        <nif>45.1.4.3</nif>
+        <direccion>
+            <via>calle</via>
+            <nombre_via>Cary</nombre_via>
+            <codigo_postal>27511</codigo_postal>
+            <pais>EEUU</pais>
+        </direccion>
+    </compania>
+    <programadores>
+        <programador id = "3">
+            <nombre>Lucia</nombre>
+            <apellidos>Martin Moreno</apellidos>
+            <dni>05763591J</dni>
+            <fecha_nacimiento>12-06-1983</fecha_nacimiento>
+            <direccion>
+                <via>plaza</via>
+                <nombre_via>Olavide</nombre_via>
+                <codigo_postal>28003</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </programador>
+
+        <programador id = "4">
+            <nombre>Lorenzo</nombre>
+            <apellidos>Castaño Ruiz</apellidos>
+            <dni>69358123L</dni>
+            <fecha_nacimiento>01-07-1972</fecha_nacimiento>
+            <direccion>
+                <via>calle</via>
+                <nombre_via>Orense</nombre_via>
+                <codigo_postal>28016</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </programador>
+
+        <programador id="5">
+             <nombre>Sandra</nombre>
+            <apellidos>Cabrera Rueda</apellidos>
+            <dni>96832657Y</dni>
+            <fecha_nacimiento>21-11-1991</fecha_nacimiento>
+            <direccion>
+                <via>calle</via>
+                <nombre_via>Donoso Cortes</nombre_via>
+                <codigo_postal>28026</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </programador>
+    </programadores>
+</videojuego>
