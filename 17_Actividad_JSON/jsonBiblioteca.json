@@ -1,0 +1,65 @@
+{
+"biblioteca":{
+    "-codigo": "B_67",
+    "nombre": "Biblioteca nacional",
+    "seccion":[
+        {
+            "-categoria":"aventura",
+            "libro":[
+                {
+                    "-id":"L1",
+                    "tirulo":"El señor de los anillos",
+                    "autor":"Tolkien",
+                    "resumen":"Un viaje épico para destruir un anillo mágico.",
+                    "editorial":{
+                        "nombre": "Editorial Fantástica",
+                        "ciudad":"Barcelona"
+                    }
+                },
+                {
+                    "-id":"L2",
+                    "titulo": "Harry Potter y la piedra filosofal",
+                    "autor": "J.K. Rowling",
+                    "anio": "1997",
+                    "resumen": "Las aventuras de un joven mago en Hogwarts.",
+                    "editorial":{
+                        "nombre": "Ediciones Mágicas",
+                        "ciudad": "Londres"
+                    }
+                }
+            ]
+        },
+        {
+            "-categoria": "novela",
+            "-pasillo": "P3",
+            "libro":{
+                "-id": "L3",
+                "titulo": "Cien años de soledad",
+                "autor": "Gabriel García Márquez",
+                "anio": "1967",
+                "resumen": "La historia de la familia Buendía en Macondo.",
+                "editorial":{
+                    "nombre": "Ediciones Macondo",
+                    "ciudad": "Bogotá"
+                 }
+                 }
+        },
+        {
+            "-categoria":"sci-fi",
+            "libro":[
+                {
+                    "-id":"L4",
+                    "titulo": "Fundación",
+                    "autor": "Isaac Asimov",
+                    "anio": "1951",
+                    "resumen": "La historia de la Fundación para prever el futuro galáctico.",
+                    "editorial": {
+                        "nombre": "Ediciones Galácticas",
+                        "ciudad": "Nueva York"
+                    }
+                }
+            ]
+        }
+    ]
+}
+}
